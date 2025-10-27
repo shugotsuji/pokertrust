@@ -1,11 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: undefined, // ← 'export' が入っていたら削除 or undefined にする
-  experimental: {
-    turbo: {
-      rules: {}, // Turbopackで問題起きないように初期化
-    },
-  },
+  // ここは空でOK。experimental.turbo は削除
 };
-
 module.exports = nextConfig;
